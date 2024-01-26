@@ -27,7 +27,7 @@ class ClassifyTriangle {
           Integer.parseInt(args[1]),
           Integer.parseInt(args[2])
       ));
-    } catch (java.lang.ArrayIndexOutOfBoundsException excpetion) {
+    } catch (java.lang.ArrayIndexOutOfBoundsException exception) {
       System.out.println(triTypes[3]);
     }
   }
