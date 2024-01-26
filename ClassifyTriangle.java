@@ -69,7 +69,7 @@ class ClassifyTriangle {
       // Confirm it's a legal triangle before declaring
       // it to be scalene
 
-      if (Side1 <= Side3-Side2 | Side2 <= Side1-Side3 |
+      if (Side1 <= Side3-Side2 || Side2 <= Side1-Side3 ||
           Side3 <= Side2-Side1)
         triOut = 3;
       else
