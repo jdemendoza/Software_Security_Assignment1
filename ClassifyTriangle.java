@@ -87,7 +87,7 @@ class ClassifyTriangle {
       triOut = 1;
     else if (triOut == 1 && Side1 > Side2-Side3)
       triOut = 1;
-    else if (triOut == 2 & Side2 > Side1-Side3)
+    else if (triOut == 2 && Side2 > Side1-Side3)
       triOut = 1;
     else
       triOut = 3;
