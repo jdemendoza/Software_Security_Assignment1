@@ -53,7 +53,7 @@ class ClassifyTriangle {
 
     // After a quick confirmation that it's a legal
     // triangle, detect any sides of equal length
-    if (Side1 < 1 | Side2 <= 1 | Side3 <= 0) {
+    if (Side1 < 1 || Side2 <= 1 || Side3 <= 0) {
        triOut = 3;
        return (triTypes[triOut]);
     }
